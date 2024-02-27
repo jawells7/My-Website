@@ -1,20 +1,51 @@
 <html>
 <head>
-<?php include './includes/IndexHeader.css';?>
 <title>Work Experience</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="Index.css">
+<link rel="stylesheet" href="./css/Index.css">
 
 </head>
 
 <div class="title">
-	<p><u>My Work Experience</u></p>
+	<p>My Work Experience</p>
 </div>
 
 <body>
+	<div class="header">
+	
+		<div class="menu">
+			<div class="submenu">
+				<a href="Index.html"><button class="dropbtn">Home</button></a>
+			</div>
+			
+			<div class="submenu">
+				<a href="education.html"><button class="dropbtn">Education</button></a>
+			</div>
+			
+			<div class="submenu">
+				<a href="projects.html"><button class="dropbtn">Projects</button></a>
+			</div>
+			
+			<div class="submenu">
+				<a href="work.html"><button class="dropbtn">Work</button></a>
+			</div>
+			
+			<div class="submenu">
+				<a href="about.html"><button class="dropbtn">About</button></a>
+			</div>
+			
+			<div class="submenu">
+				<a href="mailto:jakewells9@proton.me"><button class="dropbtn">Contact</button></a>
+			</div>
+			
+			<div class="submenu">
+				<a href="https://www.linkedin.com/in/jake-wells-440a931b5/"><button class="dropbtn">LinkedIn</button></a>
+			</div>
+		</div>
+	</div>
 	<div class="main">
 		<span class="content">
-			<table border="1" style="background-color: #FFD700; color:black">
+			<table border="1" style="background-color: #ffeb99; color:black; font-size:20px">
 				<tr style="background-color:black; color:white">
 					<th>Job Title</th>
 					<th>Company</th>
@@ -62,7 +93,7 @@
 					<td>
 						<ul>
 							<li>Assisted with the set-up and tear-down of seasonal store</li>
-							<li>Intook shipments and processed and managed merchandise throughout the store</li>
+							<li>Took in shipments and processed and managed merchandise throughout the store</li>
 							<li>Helped generate sales</li>
 							<li>Operated Point-Of-Sale services and equipment</li>
 							<li>Assisted in loss prevention</li>
