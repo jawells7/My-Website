@@ -1,15 +1,15 @@
 <html>
 
 <head>
-<?php include './includes/IndexHeader.css';?>
 <title>Jake Wells</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="Index.css">
+<link rel="stylesheet" type="text/css" href= './css/Index.css'>
 <style>
 img {
 	border-radius:50%;
-	width: 550px;
-	height: 500px;
+	padding-top:10%;
+	width: 650px;
+	height: 600px;
 	clear:both;
 	padding-bottom: 10px;
 	
@@ -19,10 +19,42 @@ img {
 </head>
 
 <body>	
+	<div class="header">
+	
+		<div class="menu">
+			<div class="submenu">
+				<a href="Index.html"><button class="dropbtn">Home</button></a>
+			</div>
+			
+			<div class="submenu">
+				<a href="education.html"><button class="dropbtn">Education</button></a>
+			</div>
+			
+			<div class="submenu">
+				<a href="projects.html"><button class="dropbtn">Projects</button></a>
+			</div>
+			
+			<div class="submenu">
+				<a href="work.html"><button class="dropbtn">Work</button></a>
+			</div>
+			
+			<div class="submenu">
+				<a href="about.html"><button class="dropbtn">About</button></a>
+			</div>
+			
+			<div class="submenu">
+				<a href="mailto:jakewells9@proton.me"><button class="dropbtn">Contact</button></a>
+			</div>
+			
+			<div class="submenu">
+				<a href="https://www.linkedin.com/in/jake-wells-440a931b5/"><button class="dropbtn">LinkedIn</button></a>
+			</div>
+		</div>
+	</div>
 	<div class="main">
 		
 		<div class="image">
-			<img border="0" src="img/test_image.jpg">
+			<img border="0" src="./img/Headshot.jpg">
 		</div>
 		
 		<div class="textbox">
