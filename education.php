@@ -6,10 +6,42 @@
 </head>
 
 <div class="title">
-	<p><u>My Education</u></p>
+	<p>My Education</p>
 </div>
 
 <body>
+	<div class="header">
+	
+		<div class="menu">
+			<div class="submenu">
+				<a href="Index.html"><button class="dropbtn">Home</button></a>
+			</div>
+			
+			<div class="submenu">
+				<a href="education.html"><button class="dropbtn">Education</button></a>
+			</div>
+			
+			<div class="submenu">
+				<a href="projects.html"><button class="dropbtn">Projects</button></a>
+			</div>
+			
+			<div class="submenu">
+				<a href="work.html"><button class="dropbtn">Work</button></a>
+			</div>
+			
+			<div class="submenu">
+				<a href="about.html"><button class="dropbtn">About</button></a>
+			</div>
+			
+			<div class="submenu">
+				<a href="mailto:jakewells9@proton.me"><button class="dropbtn">Contact</button></a>
+			</div>
+			
+			<div class="submenu">
+				<a href="https://www.linkedin.com/in/jake-wells-440a931b5/"><button class="dropbtn">LinkedIn</button></a>
+			</div>
+		</div>
+	</div>
 	
 	<div class="main">
 		<div class="textbox">
@@ -18,11 +50,55 @@
 		<br>
 		
 		<span class="content">
-			<table border="1" style="background-color: #FFD700; color:black">
+			<div class="title2">
+				<p><b>University of Colorado at Colorado Springs (UCCS) [2019-2023]</b></p>
+			</div>
+			<table border="1" style="background-color: #ffeb99; color:black; font-size:20px;">
 				<tr style="background-color:black; color:white">
 					<th>Course Name</th>
 					<th>Skills Acquired</th>
 					<th>Major Projects</th>
+				</tr>
+				
+				<tr>
+					<td>MATH 99: Algebra II - Intermediate Algebra</td>
+					<td>Polynomials, Quadratic Functions, Systems of Equations and Inequalities, Graphs and Functions</td>
+				</tr>
+				
+				<tr>
+					<td>MATH 1040: College Algebra</td>
+					<td>Quadratic Equations, Logarithms, Trigonometry, Elasticity</td>
+				</tr>
+				
+				<tr>
+					<td>MATH 1120: Calculus for Business and Economics</td>
+					<td>Trigonometry, Critical Numbers, Differentiation and Antidifferentiation</td>
+				</tr>
+				
+				<tr>
+					<td>QUAN 2010: Business Statistics</td>
+					<td>Sampling Theory, Hypothesis Testing, Simple and Multiple Regression</td>
+				</tr>
+				
+				<tr>
+					<td>QUAN 2020: Quantitative Analysis for Business</td>
+					<td>Queueing, Linear Modeling, Forecast Modeling</td>
+				</tr>
+				
+				<tr>
+					<td>COMM 1120: Public Speaking</td>
+					<td>Oral Presentation and Communication, Persuasive Speech, Monroe's Motivated Sequence</td>
+				</tr>
+				
+				<tr>
+					<td>COMM 2010: Oral Communication in the Workplace</td>
+					<td>Impromptu Speech, Demonstration Speech</td>
+				</tr>
+				
+				<tr>
+					<td>TCID 2090: Technical Writing</td>
+					<td>Technical Communications, Diagrams, Citations, Report Types (Research Analyses, Recommendation Reports, Feasibility Study, Single Solution Report)</td>
+					<td>For a research paper on a hypothetical piece of technology to solve a problem, I wrote a report on using reproductive cloning to restore the wildlife lost during the then-ongoing Australian wildfires</td>
 				</tr>
 				
 				<tr>
@@ -44,7 +120,7 @@
 				
 				<tr>
 					<td>INFS 3500: Cybersecurity Technologies</td>
-					<td>AWS, NoSQL, GitHub</td>
+					<td>AWS, NoSQL, GitHub, Viruses/Malware</td>
 				</tr>	
 				
 				<tr>
@@ -55,18 +131,19 @@
 				<tr>
 					<td>INFS 3800: Programming Web-Based Systems</td>
 					<td>HTML, PHP, CSS</td>
-					<td>Build a Website With Login and Search Functions</td>
+					<td><a href="projects.php">Build a Website With Login and Search Functions</a></td>
 				</tr>	
 				
 				<tr>
 					<td>INFS 4050: Information Technology Integration</td>
 					<td>Project Management, Agile Management System</td>
-					<td>Build an Executive Portal for FedEx</td>
+					<td><a href="projects.php">Build an Executive Portal for FedEx</a></td>
 				</tr>
 				
 				<tr>
 					<td>INFS 4700: Advanced Networking Topics</td>
 					<td>Creating and editing IP routes, OSPF and Static routes, Access Control Lists, Cisco systems</td>
+					<td>Connecting 8 Cisco Routers With Static and OSPF Routes and Successfully Pinging All of Them</td>
 				</tr>
 				
 				<tr>
@@ -74,13 +151,13 @@
 					<td>API, Hard Drive anatomy</td>
 				</tr>
 			</table>
-			<p style="color:#FFD700;">For my full list of classes and experience, you can take a look at my transcript <a href="Transcript.pdf" target="_new">here</a></p>
+			<p style="color:#FFD700;">For my full list of classes and experience, you can take a look at my transcript <a style="color:#FFD700;" href="Transcript.pdf" target="_new">here</a></p>
 			<hr>
 			
 			<div class="title2">
-				<p><b><u>Pikes Peak Christian School (PPCS) [2015-2019]</u></b></p>
+				<p><b>Pikes Peak Christian School (PPCS) [2015-2019]</b></p>
 			</div>
-			<table border="1" style="background-color: #FFD700; color:black">
+			<table border="1" style="background-color: #ffeb99; color:black; font-size:20px">
 				<tr style="background-color:black; color:white">
 					<th>Course Name</th>
 					<th>Skills Acquired</th>
@@ -88,19 +165,24 @@
 				</tr>
 				
 				<tr>
-					<th>Physics</th>
+					<td>Physics</td>
+					<td>Velocity, Centripal/Centrifugal forces, Volume, Pressure</td>
 				</tr>
 				
 				<tr>
-					<th>Chemistry</th>
+					<td>Chemistry</td>
+					<td>Elements, Balancing Chemical Equations</td>
 				</tr>
 				
 				<tr>
-					<th>Graphic Design</th>
+					<td>Graphic Design</td>
+					<td>Photoshop</td>
 				</tr>
 				
 				<tr>
-					<th>
+					<td>Statistics</td>
+					<td>Standard Deviation, Variance</td>
+				</tr>
 			</table>
 		</span>
 	</div>
